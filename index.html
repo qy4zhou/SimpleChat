@@ -21,7 +21,8 @@
                     var sSender = "none";
                     try {
                         sSender = $scope.google.displayName;
-                    } catch
+                    } catch(){
+                    }
                     $scope.messages.$add({
                         text: $scope.newMessageText,
                         sender: sSender
